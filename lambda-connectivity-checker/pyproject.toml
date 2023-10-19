@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lambda-connectivity-checker"
+version = "0.1.0"
+description = ""
+authors = ["Mark Warriner <mark.warriner@madetech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
